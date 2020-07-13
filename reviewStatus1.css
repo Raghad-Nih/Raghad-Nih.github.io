@@ -23,8 +23,8 @@ a[href*="javascript:markReviewed"]::after {
     -moz-border-radius: 5;
     border-radius: 5px;
     font-family: Arial;
-    color: #fff;
-    background: #00131D;
+    color: #ffffff;
+    background: #009641;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     text-align: center;
@@ -50,7 +50,7 @@ a[href*="javascript:markUnreviewed"]::after {
     border-radius: 5px;
     font-family: Arial;
     color: #ffffff;
-    background: #005C84;
+    background: #1D337C;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     text-align: center;
