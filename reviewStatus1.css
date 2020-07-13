@@ -5,7 +5,7 @@
     position: relative;
     color: white;
     border: white none;
-    background-color: white;
+    background-color: white none;
 }
 .button-5:focus {
     outline: 3px solid #002E3B !important;
