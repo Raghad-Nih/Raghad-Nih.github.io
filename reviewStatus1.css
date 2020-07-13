@@ -52,3 +52,4 @@ a[href*="javascript:markUnreviewed"]::after {
     text-decoration: none;
     text-align: center;
     float: left;
+}
