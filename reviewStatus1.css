@@ -30,6 +30,7 @@ a[href*="javascript:markReviewed"]::after {
     text-align: center;
     float: left;
 }
+
 a:hover[href*="javascript:markReviewed"]::after {
     content: "Confirm you have reviewed this content";
     background: #8D3970;
@@ -38,8 +39,10 @@ a:hover[href*="javascript:markReviewed"]::after {
 a:active[href*="javascript:markReviewed"]::after {
     transform: translateY(4px) !important;
 }
+
+
 a[href*="javascript:markUnreviewed"]::after {
-    content: " " I have reviewed this content" !important;
+    content: "�" I have reviewed this content" !important;
     visibility: visible;
     position: relative;
     -webkit-border-radius: 5;
@@ -52,8 +55,4 @@ a[href*="javascript:markUnreviewed"]::after {
     text-decoration: none;
     text-align: center;
     float: left;
-}
-/* Lesson plan button 5 link colour fix */
-a.button-5.customFormBuilderLabel {
-    color: #002E3B !important;
 }
